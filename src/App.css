@@ -1,0 +1,22 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #ececec;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  background-image: url('./assets/bg_stack.png');
+  background-color: #03001b;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat, repeat-y;
+  
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}

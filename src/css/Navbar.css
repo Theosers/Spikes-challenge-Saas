@@ -1,0 +1,30 @@
+nav {
+    position: fixed;
+    
+    width: 92%;
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: rgb(11, 8, 28, 50%);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 20px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    color: #0B081C;
+    border-radius: 20px;
+    word-spacing: 1r;
+}

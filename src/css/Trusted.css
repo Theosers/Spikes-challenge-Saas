@@ -1,0 +1,19 @@
+section {
+    margin-top: 4rem ;
+    text-align: center;
+    
+    
+}
+
+.trusted-text {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+.trusted-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8rem;
+    
+
+}
