@@ -39,7 +39,7 @@ const Features = () => {
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
           transition={{ delay: 1, duration: 2 }}
         >
-          <img src="src/assets/analytics.png" alt="" className='img-features'/>
+          <img src="assets/analytics.png" alt="" className='img-features'/>
           <h3>Analytics Dashboard</h3>
           <p>Our Analytics Dashboard provides a clear and intuitive interface <br />
             for you to easily analyze your data. From customizable graphs to <br />
@@ -53,7 +53,7 @@ const Features = () => {
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
           transition={{ delay: 1.5, duration: 2 }}
         >
-          <img src="src/assets/credit_token.png" alt="" className='img-features'/>
+          <img src="assets/credit_token.png" alt="" className='img-features'/>
           <h3>Digital Credit Tokens</h3>
           <p>Reward your customers and incentivize engagement with our <br />
             innovative digital credit tokens. Our tokens can be customized to <br />
@@ -70,7 +70,7 @@ const Features = () => {
         transition={{ delay: 2, duration: 2 }}
       >
         <div className="left-content">
-          <img src="src/assets/code_collaboration.png" alt="" className='img-features' />
+          <img src="assets/code_collaboration.png" alt="" className='img-features' />
           <h3>Code collaboration</h3>
           <p>Our advanced code synchronization technology ensures that <br />
             your data is always up-to-date and accurate, no matter where it's <br />
@@ -81,7 +81,7 @@ const Features = () => {
           <a href="#">View code collaboration</a>
         </div>
         <span className="right-content">
-          <img src="src/assets/digital_token.png" alt="" />
+          <img src="assets/digital_token.png" alt="" />
         </span>
       </motion.div>
       <motion.div
