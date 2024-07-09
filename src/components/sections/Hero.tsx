@@ -52,7 +52,7 @@ const Hero = () => {
 
       <motion.img
         className='vaultFlow-img'
-        src="src/assets/VaultFlow_Hero.png"
+        src="assets/VaultFlow_Hero.png"
         alt="VaultFlow Hero"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

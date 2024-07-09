@@ -45,7 +45,7 @@ const Trusted = () => {
       >
         {['LogoWrapper.png', 'LogoWrapper-1.png', 'LogoWrapper-2.png', 'LogoWrapper-3.png', 'LogoWrapper-4.png', 'LogoWrapper-5.png', 'LogoWrapper-6.png'].map((src, index) => (
           <motion.li key={src} custom={index} variants={listItemVariants}>
-            <img src={`src/assets/brands/${src}`} alt={`Brand ${index + 1}`} />
+            <img src={`assets/brands/${src}`} alt={`Brand ${index + 1}`} />
           </motion.li>
         ))}
       </motion.ul>
