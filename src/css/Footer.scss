@@ -1,0 +1,51 @@
+footer {
+    margin-top: 10rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .footer-main-container {
+      width: 60%;
+      padding: 2rem;
+  
+      .footer-content {
+        display: flex;
+  
+        .contact-careers {
+          .contact,
+          .careers {
+            margin-bottom: 2rem;
+  
+            h4 {
+              color: #FFFFFF;
+              font-weight: 500;
+              font-size: 1.5rem;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+  
+        .adress-social {
+          padding-left: 8rem;
+  
+          .adress {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+  
+      .footer-copyright {
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        .copyright {
+          color: #939393;
+        }
+      }
+    }
+  }
+  

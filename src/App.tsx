@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './App.scss'
 import Hero from './components/sections/Hero'
 import Navbar from './components/sections/Navbar'
 import Features from './components/sections/Features'
