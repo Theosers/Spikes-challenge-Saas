@@ -14,28 +14,28 @@ const Hero = () => {
         className='moneyRaised'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
       >
         We just raised $20M in Series B. Learn more
       </motion.span>
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
+        transition={{ delay: 0.65, duration: 0.5 }}
       >
         Modern analytics<br /> for the modern world
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
+        transition={{ delay: 0.75, duration: 0.5 }}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </motion.p>
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
+        transition={{ delay: 0.9, duration: 0.5 }}
       >
         Suspendisse varius enim in eros elementum tristique.
       </motion.p>
@@ -44,7 +44,7 @@ const Hero = () => {
         className='button-container'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 2.5, duration: 1 }}
+        transition={{ delay: 1, duration: 0.5 }}
       >
         <Button text="Download the app" />
         <Button text="Talk to an expert" className="secondary" />
@@ -56,7 +56,7 @@ const Hero = () => {
         alt="VaultFlow Hero"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 3, duration: 1 }}
+        transition={{ delay: 1.15, duration: 0.5 }}
       />
     </motion.div>
   );

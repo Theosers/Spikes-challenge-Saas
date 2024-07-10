@@ -18,3 +18,11 @@ section {
     }
   }
   
+  @media (max-width: 768px) {
+    section {
+        .trusted-imgs {
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}

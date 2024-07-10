@@ -25,10 +25,49 @@ nav {
       }
     }
   
-    button {
-      padding: 0.75rem 1.5rem;
-      color: #0B081C;
-      border-radius: 20px;
+    
+  }
+  @media (max-width: 768px) {
+    nav {
+      width: 80%; 
+      padding: 0.5rem 1rem;
+  
+      img {
+       
+        width: 80px; 
+      }
+  
+      ul {
+        gap: 1rem; 
+      }
+  
+      button {
+        
+        padding: 0.5rem 1rem; 
+        font-size: 0.5rem;
+      }
     }
   }
+  @media (max-width: 420px) {
+    nav {
+      width: 85%; 
+      margin-left: 2%;
+      padding: 0.5rem 1rem;
+      
   
+      img {
+        display: none;
+        width: 80px; 
+      }
+  
+      ul {
+        gap: 1rem; 
+      }
+  
+      button {
+        
+        padding: 0.5rem 1rem; 
+        font-size: 0.5rem;
+      }
+    }
+  }

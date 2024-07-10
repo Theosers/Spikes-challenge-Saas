@@ -26,7 +26,7 @@ const Features = () => {
         className='features-subtitle'
         initial={{ opacity: 0 }}
         animate={{ opacity: inView ? 1 : 0 }}
-        transition={{ delay: 0.5, duration: 2 }}
+        transition={{ delay: 0.5, duration: 0.7 }}
       >
         Check out our amazing features and experience the <br />
         power of Vaultflow for yourself.
@@ -37,7 +37,7 @@ const Features = () => {
           className="box"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-          transition={{ delay: 1, duration: 2 }}
+          transition={{ delay: 0.65, duration: 0.7 }}
         >
           <img src="assets/analytics.png" alt="" className='img-features'/>
           <h3>Analytics Dashboard</h3>
@@ -51,7 +51,7 @@ const Features = () => {
           className="box"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-          transition={{ delay: 1.5, duration: 2 }}
+          transition={{ delay: 0.75, duration: 0.7 }}
         >
           <img src="assets/credit_token.png" alt="" className='img-features'/>
           <h3>Digital Credit Tokens</h3>
@@ -67,7 +67,7 @@ const Features = () => {
         className="box large-box"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-        transition={{ delay: 2, duration: 2 }}
+        transition={{ delay: 0.90, duration: 0.7 }}
       >
         <div className="left-content">
           <img src="assets/code_collaboration.png" alt="" className='img-features' />
@@ -88,7 +88,7 @@ const Features = () => {
         className="box other-large-box"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-        transition={{ delay: 2.5, duration: 2 }}
+        transition={{ delay: 1, duration: 0.7 }}
       >
         <h2 className='powerful-analytics-title'>Our powerful analytics <br />
           provides invaluable insights.
